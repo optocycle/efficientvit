@@ -28,7 +28,7 @@ lvis
 scikit-image
 
 git+https://github.com/alibaba/TinyNeuralNetwork.git
-git+https://github.com/facebookresearch/segment-anything.git
+git+https://github.com/optocycle/segment-anything.git
 
 # demo-specific packages
 gradio
