@@ -29,6 +29,6 @@ setup(
         "lvis",
         "scikit-image",
         "tinyneuralnetwork @ git+https://github.com/alibaba/TinyNeuralNetwork.git",
-        "segment_anything",
+        "segment-anything @ git+https://github.com/optocycle/segment-anything.git",
     ],
 )
