@@ -6,12 +6,12 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torchvision.transforms as transforms
-from segment-anything import SamAutomaticMaskGenerator
-from segment-anything.modeling import MaskDecoder, PromptEncoder, TwoWayTransformer
-from segment-anything.modeling.mask_decoder import MaskDecoder
-from segment-anything.modeling.prompt_encoder import PromptEncoder
-from segment-anything.utils.amg import build_all_layer_point_grids
-from segment-anything.utils.transforms import ResizeLongestSide
+from segment_anything import SamAutomaticMaskGenerator
+from segment_anything.modeling import MaskDecoder, PromptEncoder, TwoWayTransformer
+from segment_anything.modeling.mask_decoder import MaskDecoder
+from segment_anything.modeling.prompt_encoder import PromptEncoder
+from segment_anything.utils.amg import build_all_layer_point_grids
+from segment_anything.utils.transforms import ResizeLongestSide
 from torchvision.transforms.functional import resize, to_pil_image
 
 from efficientvit.models.efficientvit.backbone import EfficientViTBackbone, EfficientViTLargeBackbone
