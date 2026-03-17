@@ -28,7 +28,7 @@ setup(
         "pycocotools",
         "lvis",
         "scikit-image",
-        "tinyneuralnetwork @ git+https://github.com/alibaba/TinyNeuralNetwork.git",
+        "tinyneuralnetwork @ git+https://github.com/optocycle/TinyNeuralNetwork.git",
         "segment-anything @ git+https://github.com/optocycle/segment-anything.git",
     ],
 )
